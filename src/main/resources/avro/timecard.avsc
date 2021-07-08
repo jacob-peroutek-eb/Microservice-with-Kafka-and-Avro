@@ -1,0 +1,19 @@
+{
+  "namespace": "com.jperoutek.microservicewithkafkaandavro.avro",
+  "type": "record",
+  "name": "Timecard",
+  "fields": [
+    {
+      "name": "user_id",
+      "type": "int"
+    },
+    {
+      "name": "assignment",
+      "type": "int"
+    },
+    {
+      "name": "duration",
+      "type": "int"
+    }
+  ]
+}
